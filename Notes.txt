@@ -1,0 +1,31 @@
+1. Class and Objects (with examples)
+    > constructor - It is a method which gets called whenever we initialize an object with the class they help in 
+    setting some initial attributes to the class and the object
+    > Methods - They provide a certain functionality to the class which the objects can further access and do.
+    > self keyword - this refers to the object that is being intitialzed inisde the class itself,
+    the id in the memory for self and the object will be the same.
+    >methods get callled manually while constructors are called automatically
+    > ADVANTAGES of CLASSES
+            > Reusablility
+            > Can make your own data types
+            > More freedom
+            > Makes the code look better 
+
+
+2. Why Python is known as OOP language?
+    > All the data types in python are made through classes and they have certain attributes and methods related to them.\
+
+OOPS PROJ 1 
+
+1) initiatlized a class named chatbook
+2) set a static hidden variable in the class itself 
+    > static variable = The variable does not get reset with a new object 
+    > Hidden varibale = Normal people arent able to access the variable (syntax __variable_name = )
+    This hidden variable or attribute phenomena is known as encapsulation
+3) made a self id variable which is a static variable 
+4) Getter Setters = They are used to get the values of hidden objects and set the values of static objects which may or may not be hidden
+    > For static objects there is no need to specify self as they are not dependant on object
+5) most of it is just simple logic code nxt
+
+
+3) Super keyword - used to prevernt overloading and overriding we can access the constuctor attributes and methods without overloading or overriding them while inheriting.
